@@ -1,0 +1,25 @@
+
+
+
+.slider{
+    height:580px;
+    
+    background:url(../img/s4.jpg);
+
+    animation:slide 50s infinite;}
+
+
+@media screen and (min-width: 576px) {
+
+@keyframes slide{
+    25%{background: url(../img/s1.jpg)}
+    50%{background: url(../img/s2.jpg)}
+    75%{background: url(../img/s3.jpg)}
+    100%{background: url(../img/s4.jpg)}
+    
+}
+
+
+}
+
+
